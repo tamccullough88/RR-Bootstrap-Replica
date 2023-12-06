@@ -1,15 +1,14 @@
-import './App.css';
 import TopBar from './Components/TopBar'
-// import Background from './components/Background'
-// import StoreListings from './components/StoreListings'
+import Background from './Components/Background'
+import StoreListings from './Components/StoreListings'
 
 
 function App() {
   return (
     <div className="App">
       <TopBar />
-      {/* <Background />
-      <StoreListings /> */}
+      <Background />
+      <StoreListings />
     </div>
   );
 }
